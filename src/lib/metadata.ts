@@ -3,9 +3,20 @@ import type { Metadata } from "next";
 export const SITE_NAME = "Northstar Learning";
 export const SITE_DESCRIPTION =
   "Discover practical technology courses and learn one clear lesson at a time.";
-export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
-).replace(/\/$/, "");
+
+function normalizeSiteUrl(value: string) {
+  const url = /^https?:\/\//i.test(value) ? value : `https://${value}`;
+  return url.replace(/\/$/, "");
+}
+
+const deployedSiteUrl =
+  process.env.URL ??
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  process.env.VERCEL_PROJECT_PRODUCTION_URL ??
+  process.env.VERCEL_URL ??
+  "http://localhost:3000";
+
+export const SITE_URL = normalizeSiteUrl(deployedSiteUrl);
 
 interface PageMetadataOptions {
   title: string;
