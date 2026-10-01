@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Team member three photo placeholder</title>
+  <desc id="desc">A purple abstract portrait placeholder for team member three.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#432076"/><stop offset="1" stop-color="#9b6fe1"/></linearGradient></defs>
+  <rect width="800" height="920" rx="36" fill="url(#bg)"/>
+  <circle cx="690" cy="110" r="190" fill="none" stroke="#f2b33d" stroke-opacity=".35" stroke-width="38"/>
+  <circle cx="400" cy="350" r="128" fill="#fbf8ff"/>
+  <path d="M148 810c18-172 110-267 252-267s234 95 252 267" fill="#fbf8ff"/>
+  <text x="400" y="864" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4" text-anchor="middle">TEAM PHOTO 03</text>
+</svg>

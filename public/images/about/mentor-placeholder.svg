@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mentor photo placeholder</title>
+  <desc id="desc">A navy and blue abstract portrait placeholder for the project mentor.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1d47"/>
+      <stop offset="1" stop-color="#2f62df"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" rx="42" fill="url(#bg)"/>
+  <rect width="800" height="1000" rx="42" fill="url(#grid)"/>
+  <circle cx="640" cy="180" r="210" fill="none" stroke="#f2b33d" stroke-width="44" stroke-opacity=".4"/>
+  <circle cx="400" cy="390" r="142" fill="#f5f7ff" fill-opacity=".94"/>
+  <path d="M145 850c20-190 116-292 255-292s235 102 255 292" fill="#f5f7ff" fill-opacity=".94"/>
+  <rect x="58" y="70" width="180" height="46" rx="23" fill="#ffffff" fill-opacity=".12"/>
+  <text x="148" y="100" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3" text-anchor="middle">MENTOR PHOTO</text>
+</svg>
